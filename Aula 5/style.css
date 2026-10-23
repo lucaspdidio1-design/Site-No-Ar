@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+i{
+    color: green;
+    border-radius: 50%;
+    padding: 4px;
+}
+.barra{
+    height: 20px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.progresso-50{
+    height: 100%;
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+    background-color: green;
+}
+.fa-linkedin{
+    color: blue;
+}
+span{
+    display: inline-block;
+    width: 50px;
+}

@@ -1,0 +1,42 @@
+main {
+  padding-top: 70px;
+}
+
+.hero {
+  min-height: 90vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url("../img/praia.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.carousel-img {
+  height: 65vh;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 40vh;
+  }
+}
+
+.destino-img {
+  height: 220px;
+  object-fit: cover;
+}
+
+#promocoes .d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}

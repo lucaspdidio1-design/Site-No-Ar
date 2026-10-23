@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(76, 135, 132);
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 1400px;
+}
+a{
+    color: rgb(80, 50, 231);
+    text-decoration: none;
+}
+#ex{
+    text-align: center;
+    font-size: 25px;
+}
+#bn{
+    color: rgb(255, 236, 67);
+}
+#au{
+    color: rgb(0, 192, 250);
+}
+#pt{
+    color: rgb(0, 0, 0);
+}
+#vl{
+    color: red;
+}
+#vd{
+    color: green;
+}
+.im{
+    width: 50px;
+}
+.tx{
+    text-align: center;
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destinos | Viaje Bem</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html"> Viaje Bem</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menuPrincipal" aria-controls="menuPrincipal"
+                aria-expanded="false" aria-label="Abrir menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Início</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" role="button"
+                 data-bs-toggle="dropdown" aria-expanded="false">
+                Destinos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#nacionais">Nacionais</a></li>
+                <li><a class="dropdown-item" href="#internacionais">Internacionais</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#promocoes">Promoções</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="flex-grow-1 pt-5 mt-4">
+
+    <section id="nacionais" class="container my-5">
+      <h1 class="mb-4">Destinos nacionais</h1>
+
+      <div class="row g-4">
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="rio.jpg" class="card-img-top destino-img" alt="Rio de Janeiro">
+            <div class="card-body d-flex flex-column">
+              <h2 class="h5 card-title">Rio de Janeiro</h2>
+              <p class="card-text flex-grow-1">
+                5 dias com hospedagem, passeio ao Cristo Redentor e tempo livre na praia.
+              </p>
+              <p class="fw-bold text-primary mb-3">A partir de R$ 1.890</p>
+              <a href="contato.html" class="btn btn-primary">Quero viajar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="noredeste.jpg" class="card-img-top destino-img" alt="Praia nordestina">
+            <div class="card-body d-flex flex-column">
+              <h2 class="h5 card-title">Porto de Galinhas</h2>
+              <p class="card-text flex-grow-1">
+                Pacote de 7 dias com traslado, café da manhã e passeio de jangada.
+              </p>
+              <p class="fw-bold text-primary mb-3">A partir de R$ 2.450</p>
+              <a href="contato.html" class="btn btn-primary">Quero viajar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="montanha.jpg" class="card-img-top destino-img" alt="Montanhas">
+            <div class="card-body d-flex flex-column">
+              <h2 class="h5 card-title">Gramado</h2>
+              <p class="card-text flex-grow-1">
+                Roteiro romântico com visita a vinícolas, parques e atrações da serra gaúcha.
+              </p>
+              <p class="fw-bold text-primary mb-3">A partir de R$ 1.590</p>
+              <a href="contato.html" class="btn btn-primary">Quero viajar</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="internacionais" class="bg-light py-5">
+      <div class="container">
+        <h2 class="mb-4">Destinos internacionais</h2>
+
+        <div class="row g-4">
+          <article class="col-12 col-md-6">
+            <div class="card h-100 shadow-sm">
+              <img src="paris.jpg" class="card-img-top destino-img" alt="Paris">
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Paris, França</h3>
+                <p class="card-text flex-grow-1">
+                  8 dias com passagem aérea, hotel central e city tour pelos principais monumentos.
+                </p>
+                <p class="fw-bold text-primary mb-3">A partir de R$ 8.990</p>
+                <a href="contato.html" class="btn btn-outline-primary">Solicitar orçamento</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-6">
+            <div class="card h-100 shadow-sm">
+              <img src="roma.jpg" class="card-img-top destino-img" alt="Roma">
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Roma, Itália</h3>
+                <p class="card-text flex-grow-1">
+                  Viagem histórica pelo Coliseu, Vaticano e centros históricos da cidade eterna.
+                </p>
+                <p class="fw-bold text-primary mb-3">A partir de R$ 7.750</p>
+                <a href="contato.html" class="btn btn-outline-primary">Solicitar orçamento</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="promocoes" class="container my-5">
+      <h2 class="mb-4">Promoções do mês</h2>
+
+      <div class="alert alert-warning" role="alert">
+        <strong>Atenção:</strong> as promoções são limitadas e podem mudar conforme a disponibilidade.
+      </div>
+
+      <div class="d-flex flex-wrap gap-3">
+        <span class="badge text-bg-primary p-3">Gramado — 20% OFF</span>
+        <span class="badge text-bg-success p-3">Rio de Janeiro — 15% OFF</span>
+        <span class="badge text-bg-danger p-3">Buenos Aires — 25% OFF</span>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4 mt-auto">
+    <div class="container">
+      <p class="mb-0">&copy; 2026 Viaje Bem — Agência de Viagens.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    /* Não muda a cor de fundo, pois já foi alterado inline */
+background-color: red;
+}
+
+h2{
+    /* sintaxe: propriedade: valor; */
+    font-style: italic;
+    text-decoration: underline;
+}
+li{
+    color: blue;
+    font-size: 20px;
+}
+/* # para selecionar por id - indentificador único */
+#especial{
+    color: red;
+    font-weight: 900;
+}
+.bordas{
+    border: 3px solid gray;
+}

@@ -1,0 +1,28 @@
+/* seletor universal */
+/* reset da página */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+h1{
+    border: 2px solid;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    padding: 30px;
+}
+#box1{
+    border: 10px solid;
+    background-color: lightblue;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    padding-top: 80px;
+    text-align: center;
+}
+/* alt move codigo selecionado */

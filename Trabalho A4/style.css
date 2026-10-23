@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* borde-box pra caixa não aumentar */
+}
+body{
+    background-color: darkgray;
+}
+.container{
+    /* border: 5px solid green; */
+    height: 1000px;
+    width: 50%;
+    /* valor 1 (Cima e Baixo); valor 2 (Direita e Esquerda) */
+    /* auto - serve para centralizar um div na horizontal */
+    margin: 10px auto;
+    display: flex;
+}
+.esquerda{
+    width: 50%;
+    background-color: black;
+    color: white;
+    height: 100%;
+    padding: 50px 30px;
+}
+.direita{
+    width: 50%;
+    background-color: white;
+    height: 100%;
+    padding: 50px 30px;
+}
+.perfil img{
+    width: 150px;
+    border: 4px solid greenyellow;
+    margin-top: 30px;
+    border-radius: 20px;
+    /* Display block para colocar margem automática nos lados */
+    display: block;
+    margin: 30px auto;
+}
+.perfil h2{
+    color: greenyellow;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 22px;
+    margin: 20px;
+}
+#st{
+    font-size: 20px;
+    margin: 5px;
+}
+.perfil h3{
+    font-style: italic;
+    margin-top: 50px;
+    color: greenyellow;
+}
+.perfil i{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fa-whatsapp{
+    color: green;
+}
+.fa-linkedin{
+    color: blue;
+}
+.fa-envelope{
+    color: rgb(234, 10, 10);
+}
+.perfil span{
+    font-size: 25px;
+}
+.perfil a{
+    font-size: 25px;
+}
+
+.abilidades h2{
+    color: greenyellow;
+    font-style: italic;
+    font-size: 40px;
+}
+#pt{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.abilidades h2{
+    margin-top: 25px;
+}
+.abilidades span{
+    font-size: 30px;
+    display: inline-block;
+    width: 150px;
+    margin-top: 15px;
+} 
+i{
+    font-size: 20px;
+    color: greenyellow;
+}
+.barra{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.progresso-50{
+    height: 100%;
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+    background-color: green;
+}
+.progresso-40{
+    height: 100%;
+    width: 40%;
+    border-radius: 10px 0 0 10px;
+    background-color: green;
+}
+.progresso-0{
+    height: 100%;
+    width: 0%;
+    border-radius: 10px 0 0 10px;
+    background-color: green;
+}

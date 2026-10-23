@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #22242a;
+    color:#e8e8e8;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #ECECEC;
+    background-color: #333438;
+    padding: 8px 15px;
+    border-radius: 16px;
+}
+a:hover{
+    background-color: #51545e;
+}
+.grupos, .gols{
+    width: 50%;
+    margin: 0 auto;
+    /* border: 1px solid; */
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+td{
+    color: #BDC1C6;
+    border-top: 1px solid;
+}
+th, td{
+    color: #999DA9;
+    padding: 5px;
+}
+.text-left{
+    text-align: left;
+}
+.grupos img{
+    width: 24px;
+    height: 24px;
+}
+.bl-blue{
+    border-left: 3px solid #4285f4;
+}
+.gols img{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+h2{
+    color: #ECECEC;
+}
+h1{
+    color: #EEF0FF;
+}
+.bl-orange{
+    border-left: 3px solid #FA7B17;
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viaje Bem | Agência de Viagens</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html"> Viaje Bem</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menuPrincipal" aria-controls="menuPrincipal"
+                aria-expanded="false" aria-label="Abrir menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Início</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button"
+                 data-bs-toggle="dropdown" aria-expanded="false">
+                Destinos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="destinos.html#nacionais">Nacionais</a></li>
+                <li><a class="dropdown-item" href="destinos.html#internacionais">Internacionais</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="destinos.html#promocoes">Promoções</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+
+            <li class="nav-item">
+              <button class="btn btn-light ms-lg-3 mt-2 mt-lg-0"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#menuLateral">
+                Minha viagem
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="flex-grow-1">
+
+    <section class="hero d-flex align-items-center text-white text-center">
+      <div class="container py-5">
+        <h1 class="display-4 fw-bold">Descubra o mundo com a Viaje Bem</h1>
+        <p class="lead mb-4">
+          Pacotes completos para destinos nacionais e internacionais,
+          com atendimento personalizado e as melhores condições.
+        </p>
+        <a href="destinos.html" class="btn btn-warning btn-lg fw-semibold">
+          Ver destinos
+        </a>
+      </div>
+    </section>
+
+    <section class="container my-5">
+      <h2 class="text-center mb-4">Destinos em destaque</h2>
+
+      <div id="carouselDestinos" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselDestinos" data-bs-slide-to="0"
+                  class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselDestinos" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselDestinos" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner rounded shadow">
+          <div class="carousel-item active">
+            <img src="praia.jpg" class="d-block w-100 carousel-img" alt="Praia com mar azul">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Porto de Galinhas</h5>
+              <p>Piscinas naturais, sol e tranquilidade no litoral de Pernambuco.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="montanhaneve.jpg" class="d-block w-100 carousel-img" alt="Montanhas cobertas de neve">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Bariloche</h5>
+              <p>Aventura, neve e paisagens incríveis na Argentina.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="cidadeilu.jpg" class="d-block w-100 carousel-img" alt="Cidade iluminada à noite">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Nova York</h5>
+              <p>Cultura, gastronomia e os pontos turísticos mais famosos do mundo.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button"
+                data-bs-target="#carouselDestinos" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <button class="carousel-control-next" type="button"
+                data-bs-target="#carouselDestinos" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Por que escolher a Viaje Bem?</h2>
+
+        <div class="row g-4">
+          <article class="col-12 col-md-4">
+            <div class="card h-100 text-center shadow-sm">
+              <div class="card-body">
+                <h3 class="h5 card-title">Atendimento humano</h3>
+                <p class="card-text">
+                  Nossa equipe acompanha você antes, durante e depois da viagem.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4">
+            <div class="card h-100 text-center shadow-sm">
+              <div class="card-body">
+                <h3 class="h5 card-title">Pacotes flexíveis</h3>
+                <p class="card-text">
+                  Escolha hospedagem, transporte e passeios conforme o seu orçamento.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4">
+            <div class="card h-100 text-center shadow-sm">
+              <div class="card-body">
+                <h3 class="h5 card-title">Pagamento facilitado</h3>
+                <p class="card-text">
+                  Parcelamos suas viagens e oferecemos condições especiais.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4 mt-auto">
+    <div class="container">
+      <p class="mb-1">&copy; 2026 Viaje Bem — Agência de Viagens.</p>
+      <p class="mb-0 small">Torres, Rio Grande do Sul, Brasil.</p>
+    </div>
+  </footer>
+
+  <aside class="offcanvas offcanvas-end" tabindex="-1" id="menuLateral"
+         aria-labelledby="tituloMenuLateral">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="tituloMenuLateral">Minha viagem</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+              aria-label="Fechar"></button>
+    </div>
+
+    <div class="offcanvas-body">
+      <p>Aqui você pode acompanhar seus pacotes, reservas e documentos de viagem.</p>
+      <ul class="list-group">
+        <li class="list-group-item">Reserva: Porto de Galinhas</li>
+        <li class="list-group-item">Status: Pagamento confirmado</li>
+        <li class="list-group-item">Embarque: 12/12/2026</li>
+      </ul>
+    </div>
+  </aside>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
